@@ -1,0 +1,87 @@
+@media screen and (max-width: 1024px) {
+	header img {
+		width: 25%;
+		height: 25%;
+		max-width: 225px;
+	}
+
+	nav {
+		margin-right: 100px;
+	}
+
+	.container {
+		margin: 0 3rem;
+	}
+
+	.mapa-google, .mapa {
+		width: 70vw;
+	}
+
+	.menu-bloco {
+		display: flex;
+		margin: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.menu-bloco img, .menu-bloco div {
+		width: 25vw;
+		height: 30vw;
+	}
+
+	#ultima-img {
+		margin-top: 30px;
+	}
+
+	.sobre-nos {
+		width: 100%;
+		text-align: center;
+	}
+
+	.texto {
+		margin-left: 3rem;
+		margin-right: 3rem;
+		font-size: 1rem;
+	}
+
+	.botao-pedido {
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+	}
+
+	.linha {
+		width: 100%;
+	}
+
+	.coluna-um {
+		margin-left: 3rem;
+	}
+
+	.coluna-tres {
+		margin-right: 3rem;
+		width: 40%;
+	}
+
+	.coluna-tres form, .coluna-tres p, .titulo-rodape {
+		margin-left: 0;
+	}
+
+	.input-newsletter {
+		width: 25%;
+	}
+
+	.copyright {
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.navigation a{
+		font-size: 5rem;
+	}
+}
